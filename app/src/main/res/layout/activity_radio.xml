@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/snakebarRadio"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/registration_form"
+            android:textColor="#0000FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/step3"
+            android:textColor="#0000FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/selectQualifications"
+            android:textColor="#7F2C7F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio"
+            android:layout_gravity="center"
+            >
+
+            <RadioButton
+                android:id="@+id/radiosslc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sslc"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/hsc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hsc"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/sslcDip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sslcDip"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioUg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ug"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioPg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pg"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:checked="false"
+                android:textSize="15dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/nextRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

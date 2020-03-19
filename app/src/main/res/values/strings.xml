@@ -1,0 +1,37 @@
+<resources>
+    // App name
+    <string name="app_name">Android</string>
+
+    //Screen name
+    <string name="home_screen">Register Form</string>
+    <string name="spinner_screen">Spinner</string>
+    <string name="radio_screen">Radio Button</string>
+
+    //Menu items
+    <string name="action_home">Home</string>
+    <string name="action_spinner">Spinner &amp; Toast</string>
+    <string name="action_popup">Popup</string>
+    <string name="action_radio">Radio Button &amp; Snakebar </string>
+    <string name="action_checkbox">Checkbox &amp; Popup </string>
+    <string name="registration_form">Registration Form</string>
+
+    //Steps string
+    <string name="step1">Step 1</string>
+    <string name="step2">Step 2</string>
+    <string name="step3">Step 3</string>
+    <string name="step4">Step 4</string>
+
+    //
+    <string name="homeValidateText">1. Enter the details correctly and it is validation part\n\n2. After validate you move on to Spinner screen
+    </string>
+    <string name="gender">Select gender</string>
+    <string name="selectQualifications">Choose your qualifications</string>
+    <string name="sslc">SSLC</string>
+    <string name="hsc">HSC</string>
+    <string name="sslcDip">SSLC + Diploma</string>
+    <string name="ug">UG</string>
+    <string name="pg">PG</string>
+    <string name="tandc">I Accept Terms and Conditions</string>
+    <string name="tandcText">You hereby indemnify to the fullest extent Registration from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.</string>
+    <string name="action_pass"><![CDATA[Pass value & edit]]></string>
+</resources>

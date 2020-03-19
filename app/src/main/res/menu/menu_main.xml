@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/action_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_spinner"
+        android:orderInCategory="100"
+        android:title="@string/action_spinner"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_radio"
+        android:orderInCategory="100"
+        android:title="@string/action_radio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_checkbox"
+        android:orderInCategory="100"
+        android:title="@string/action_checkbox"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_pass"
+        android:orderInCategory="100"
+        android:title="@string/action_pass"
+        app:showAsAction="never" />
+</menu>
